@@ -45,7 +45,8 @@ body{
 
 .list-item-inline{
     display:inline;
-    margin: 1rem;
+    padding: 8px 15px;
+    margin: 2px;
     
 }
 

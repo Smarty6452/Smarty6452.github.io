@@ -8,7 +8,7 @@
 }
 
 :root{
-    --primary-color: #504e4d;
+    --primary-color: #8a7a72;
     --dark-gray: #9da3af;
     --light-gray: #f9fafb;
 }
@@ -32,8 +32,8 @@ body{
 
 #navbar{
     border-radius: 1rem;
-    box-shadow: 8px 8px rgb(204, 161, 161);
-    background: var(--primary-color);
+    box-shadow: 8px 8px rgb(70, 55, 55);
+    background: rgb(170, 166, 166);
     padding: 1px 7px;
    
 }

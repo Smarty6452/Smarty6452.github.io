@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color: #504e4d;
+    --dark-gray: #9da3af;
+    --light-gray: #f9fafb;
+}
+
+body{
+    font-family: 'Baloo 2', cursive;
+}
+
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#navbar{
+    border-radius: 1rem;
+    box-shadow: 8px 8px rgb(204, 161, 161);
+    background: var(--primary-color);
+    padding: 1px 7px;
+   
+}
+
+.link{
+    color: white;   
+    text-decoration: none;
+}
+
+.list-item-inline{
+    display:inline;
+    margin: 1rem;
+    
+}
+
+.nav-links{
+    text-align: right;
+}
+
+.nav-brand{
+    color:white;
+    font-weight: 700;
+}
+
+.list-item-inline img{
+    padding: 1px 78px;
+    border-radius: 20%;
+    margin: 0px -54px;
+    height: 60px;
+    
+}
+
+
+
+/* Navigation Bar: Logo and Image */
+
+#logo{
+    border-radius: 20rem;
+    margin: 10px 34px;
+}
+
+#logo img{
+    border-radius: 20rem;
+    text-align: left;
+    height: 5rem;
+    margin: 3px 6px;
+}
+
+#navbar h1{
+    position: relative;
+   opacity: 0.4;
+   padding: 2px 15px;
+
+}
+
+.about-image{
+    border-radius: 2rem;
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    padding: 3rem;
+
+}
+
+
+
+ #navbar ul li a:hover{
+    color: black;
+    background-color: rgb(138, 107, 107);
+    border-radius: 1rem;
+} 
+
+#name{
+    padding: 1px 14px;
+    margin: 1px 8px;
+}
+
+
+
+
+
+/* container */
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* header */
+
+.header{
+    margin-top: 5rem;
+}
+
+.header-image{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    padding: 2px 3px;
+    border-radius: 2rem;
+}
+
+.header-heading{
+    color: var(--primary-color);
+    text-align: center;
+    margin-top:2rem;
+}
+
+.header-subheading{
+    color: var(--dark-gray);
+    text-align: center;
+
+}
+
+/* Section */
+
+.section-about{
+    background: var(--light-gray);
+    margin-top:5rem;
+    padding: 3rem;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.list-item{
+    font-family: 'Baloo 2', cursive;
+    padding-bottom: 0.7rem;
+}
+
+/* project section */
+
+.section-project{
+    padding: 3rem;
+    margin-top:2rem;
+}
+
+.project-card{
+    box-shadow: white;
+    border: 1px solid black;
+    padding: 1rem;
+    background: white;
+    
+}
+.img1{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
+
+
+
+.project-heading, .project-description{
+    text-align: center;
+}
+
+.primary-link{
+    text-decoration: none;
+    background: var(--primary-color);
+    color:white;
+    padding: 0.5rem 1rem;
+    margin:1rem;
+
+    display: block;
+    
+    text-align: center;
+    
+    width: 50%;
+    
+    margin:auto;
+    margin-top: 1rem;
+}
+
+.secondary-link{
+    text-decoration: none;
+
+    background: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);    
+
+   
+    padding: 0.5rem 1rem;
+    margin:1rem;
+    
+    display: block;
+    text-align: center;
+    
+    width: 50%;
+    
+    margin:auto;
+    margin-top:1rem;
+}
+
+footer{
+    background: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-header{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}

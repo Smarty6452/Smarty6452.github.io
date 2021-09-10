@@ -31,6 +31,7 @@ body{
 }
 
 #navbar{
+    font-family: 'Baloo 2', cursive;
     border-radius: 1rem;
     box-shadow: 8px 8px rgb(70, 55, 55);
     background: rgb(170, 166, 166);
@@ -174,6 +175,7 @@ body{
 }
 
 .project-card{
+    font-family: 'Baloo 2', cursive;
     box-shadow: white;
     border: 1px solid black;
     padding: 1rem;

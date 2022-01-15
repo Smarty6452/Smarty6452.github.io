@@ -123,6 +123,34 @@ body{
     margin: auto;
 }
 
+.team {
+    display: grid;
+    grid-gap: 1rem;
+    border-radius: 8px;
+    /* grid-template-columns: repeat(3, auto); */
+    /* height: 500px;
+    width: 75%; */
+    /* background-color: rgb(177, 169, 177); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+    justify-content: center;
+    align-items: center;
+
+  }
+  .item{
+    display: flex;
+    /* background-color: rgb(179, 149, 149); */
+    border: 2px solid black;
+    margin-top: 5px 3px 4px;
+    border-radius: 3px;
+    padding: 15px;
+    height: 300px;
+    text-align: center;
+
+    /* width: 40px; */
+    /* margin: 10px; */
+    
+  }
+
 /* header */
 
 .header{
@@ -177,11 +205,15 @@ body{
 .project-card{
     font-family: 'Baloo 2', cursive;
     box-shadow: white;
-    border: 1px solid black;
+   
+    /* border: 1px solid black; */
     padding: 1rem;
     background: white;
+    padding: 3px;
     
 }
+
+
 .img1{
     max-width: 50%;
     margin: auto;
